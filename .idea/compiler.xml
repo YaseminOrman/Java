@@ -10,6 +10,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java_Project" />
+        <module name="JavaProject" />
         <module name="batch108" />
       </profile>
     </annotationProcessing>
