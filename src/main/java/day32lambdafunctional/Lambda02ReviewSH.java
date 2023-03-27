@@ -1,5 +1,6 @@
-package day31lambda;
+package day32lambdafunctional;
 
+import day31lambda.UtilsSH;
 import day32lambdafunctional.UtilsClass;
 
 import java.util.ArrayList;
@@ -25,7 +26,7 @@ public class Lambda02ReviewSH {
     }
     //1)Create a method to print the elements on the console in the same line with a space
     public static void printElFunctional(List<Integer> list){
-        list.stream().forEach(UtilsSH :: printInTheSameLineWithSpace);
+        list.stream().forEach(UtilsSH:: printInTheSameLineWithSpace);
     }
     //2)Create a method to print the even elements in the list on the console in the same line with a space
     //between two consecutive ele.s (Structured P)

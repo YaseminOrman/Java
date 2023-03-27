@@ -1,5 +1,9 @@
 package day34lambda;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -7,7 +11,7 @@ import java.util.stream.Collectors;
 
 public class LambdaCourses {
     //Note: We put our constantly needed variables in POJO Class
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Courses courseTurkishDay = new Courses("Summer", "Turkish Day", 97, 128);
         Courses courseTurkishNight = new Courses("Winter", "Turkish Night", 98, 154);

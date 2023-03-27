@@ -1,5 +1,6 @@
 package day33lambda;
 
+import day31lambda.UtilsSH;
 import day32lambdafunctional.UtilsClass;
 
 import java.util.ArrayList;
@@ -45,7 +46,7 @@ public class Lambda01ReviewSH {
     //1)Create a method to print all list elements in Uppercase and
     public static void printInUpperCases(List<String> list) {
 
-        list.stream().map(String::toUpperCase).forEach(UtilsClass::printInTheSameLineWithASpace);
+       list.stream().map(String::toUpperCase).forEach(UtilsSH::printInTheSameLineWithSpace);
     }
 //    public static void printInUpperCase02(List<String>list){
 //
@@ -57,7 +58,7 @@ public class Lambda01ReviewSH {
 
     public static void printElementSortedByLength(List<String> list) {
 
-        list.stream().sorted(Comparator.comparing(String::length)).forEach(UtilsClass::printInTheSameLineWithASpace);
+        list.stream().sorted(Comparator.comparing(String::length)).forEach(System.out::println);
     }
 
     //3)Create a method to print the elements after ordering according to their lengths(In reversed order)
